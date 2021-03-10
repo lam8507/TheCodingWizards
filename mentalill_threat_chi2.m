@@ -8,7 +8,7 @@ mentalill_attack = 0;
 notmentalill_attack = 0;
 mentalill_other = 0;
 notmentalill_other = 0;
-for k = 1:6087
+for k = 1:length(mental_ill_string) % 1: length of variable instead of length of dataset
     if mental_ill_string(k) == "True" && threat_level_string(k) == "attack"
         mentalill_attack = mentalill_attack + 1;
     elseif mental_ill_string(k) == "False" && threat_level_string(k) == "attack"
