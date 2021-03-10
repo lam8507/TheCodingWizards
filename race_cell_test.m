@@ -14,3 +14,4 @@ for ii = 1:length(race_string)
         end
 end
 B_race;
+% written and debugged by Laurel and Sarah
