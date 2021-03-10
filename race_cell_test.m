@@ -1,3 +1,9 @@
+T = readtable('fatal-police-shootings-data.csv');
+
+race = T(:, 8);
+
+% coding practice when doing statistical analyses
+% this would just be a stat test extracting the number of Black people
 racecell = table2cell(race);
 race_string = string(racecell);  
 B_race = [];
