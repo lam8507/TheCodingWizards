@@ -23,6 +23,8 @@ mental_illness = T(:, 11);
 threat_level = T(:, 12);
 flee = T(:, 13);
 body_cam = T(:, 14);
+longitude = T(:, 15);
+latitude = T(:, 16);
 
 body_cam == 'False'
 
