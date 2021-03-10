@@ -1,3 +1,4 @@
+% portion completed by Laurel
 latitude = T(:, 16);
 longitude = T(:, 15);
 lat = table2array(latitude);
