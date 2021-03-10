@@ -1,4 +1,6 @@
-mental_illness = T(:, 11);
+% this was conducted by Michelle and pair programmed with Laurel
+% this is a chi2ind test based on a function downloaded
+mental_illness = T(:, 11); % extracting variables
 threat_level = T(:, 12);
 
 mental_ill_string = string(table2cell(mental_illness));
@@ -8,7 +10,8 @@ mentalill_attack = 0;
 notmentalill_attack = 0;
 mentalill_other = 0;
 notmentalill_other = 0;
-for k = 1:6087
+% finding correlation between mental illness and threat level
+for k = 1:length(mental_ill_string)
     if mental_ill_string(k) == "True" && threat_level_string(k) == "attack"
         mentalill_attack = mentalill_attack + 1;
     elseif mental_ill_string(k) == "False" && threat_level_string(k) == "attack"
