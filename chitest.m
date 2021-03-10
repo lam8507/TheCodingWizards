@@ -5,8 +5,8 @@ T = readtable('fatal-police-shootings-data.csv');
 % We will focus our analysis on race and fleeing
 
 % We used a chi squre test of independence because of our nominal categorical variables
-% Writing the code: Michelle and Laurel, 10 hours
-% Debugging the code: Michelle and Laurel, 10 hours
+% Writing the code: Michelle and Laurel, 8 hours
+% Debugging the code: Michelle and Laurel, 8 hours
 % Collaborated with Pair Programming
 
 % To do this, we needed to download a chi2ind function, which we discovered and learned out ourselves
