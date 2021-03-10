@@ -1,10 +1,5 @@
-% this portion was done by Sarah
-X = [5.9 60.1 18.5 13.4 2.8 1.3]; % generic US population pie chart
-% data from census
-% census data was only hard coding
-labels = {'Asian', 'White', 'Hisp', 'Black', 'Other', 'Native'};
-pie(X, labels)
-title('Population of the US')
+T = readtable('fatal-police-shootings-data.csv');
+body_cam = T(:,14);
 % descriptive stats for bodycam 
 bodycamcell = table2cell(body_cam);
 tbl_bodycam = tabulate(bodycamcell);
