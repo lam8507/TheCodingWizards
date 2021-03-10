@@ -15,6 +15,7 @@
 % this was originally made a while ago when we were all figuring out how to
 % extracting variables
 % this was done on Laurel's screen while Michelle and Sarah both watched
+% and helped debug
 T = readtable('fatal-police-shootings-data.csv');
 date = T(:, 3);
 armed = T(:, 5);
