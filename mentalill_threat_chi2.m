@@ -17,9 +17,13 @@ notmentalill_attack = 0;
 mentalill_other = 0;
 notmentalill_other = 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
 % finding correlation between mental illness and threat level
 for k = 1:length(mental_ill_string)
 =======
+=======
+
+>>>>>>> 53559f39f2d79def5ad54b443132610f27276b60
 for k = 1:length(T)
 >>>>>>> 385202473be75a67ec537c4c280ff5a7cc7a7f99
     if mental_ill_string(k) == "True" && threat_level_string(k) == "attack"
