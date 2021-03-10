@@ -8,13 +8,13 @@ race_string = string(racecell);
 flee_string = string(fleecell);
 
 
-for ii = 1:6087  
+for ii = 1:length(race_string) 
     if race_string(ii) ~= "B";
 race_string(ii) = "O";
     end
 end
 
-for jj = 1:6087 
+for jj = 1:length(flee_string) 
     if flee_string(jj) ~= "Not fleeing";
  flee_string(jj) = "fleeing";
     end
@@ -25,7 +25,7 @@ black_flee = 0;
 other_flee = 0;
 black_not_flee = 0;
 other_not_flee = 0;
-for k = 1:6087
+for k = 1:length(T)
     if flee_string(k) == "fleeing" && race_string(k) == "B"
         black_flee = black_flee + 1;
     elseif flee_string(k) == "fleeing" && race_string(k) == "O"
