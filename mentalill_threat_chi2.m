@@ -10,6 +10,7 @@ mentalill_attack = 0;
 notmentalill_attack = 0;
 mentalill_other = 0;
 notmentalill_other = 0;
+
 for k = 1:length(T)
     if mental_ill_string(k) == "True" && threat_level_string(k) == "attack"
         mentalill_attack = mentalill_attack + 1;
