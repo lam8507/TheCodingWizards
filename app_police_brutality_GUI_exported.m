@@ -1,3 +1,6 @@
+%GUI created by Laurel--12 hours
+%Sarah and Michelle spent 3 hours (each) helping debug
+
 classdef app_police_brutality_GUI_exported < matlab.apps.AppBase
 
     % Properties that correspond to app components
