@@ -1,3 +1,12 @@
+
+% this portion was completed by Sarah
+load('T.mat');
+race = T(:, 8);
+threat_level_clean = table2cell(threat_level);
+idx = strcmp(threat_level_clean,'undetermined');
+threat_level_clean(idx) = []; 
+threatlevel_string = string(threat_level_clean);
+threat_level_attack = []
 % this portion was completed by Sarah: 3 hours
 % Debugged by: Laurel: 2 hours
 T = readtable('fatal-police-shootings-data.csv');
@@ -63,7 +72,7 @@ title('Threat Level Raw Data Comparison')
 % future studies should further investigate this data!
  
 % general pie chart for threat level comparisons
-x2 = cell2mat(tbl_threat_level(:,2));
+x2 = cell2mat(tbl_threat_level(:,2))
 labels = {'attack', 'other'};
 pie3(x2,labels)
 title('Threat Level General Comparison')
