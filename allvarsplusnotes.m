@@ -1,21 +1,11 @@
-% This is a notes file mostly filled with scratch notes
-% To note, Sarah was primarily in charge of visualizations 
+% This is a "notes" file mostly filled with scratch notes
+% Sarah was primarily in charge of visualizations 
 % Laurel was primarily in charge of the GUI
 % Michelle was in charge of statistical analyses
-% The primary use of collaboration came from pair programming where we took
-% turns pair programming each other
+% The primary use of collaboration came from pair programming where we took turns pair programming with each other
 
-
-% calculating mean age
-% % T1 = T(:, 6);
-% % age = rmmissing(T1);%REMOVES NAN
-% % age_matrix = table2array(age)
-% % mean(age_matrix);
-
-% this was originally made a while ago when we were all figuring out how to
-% extracting variables
-% this was done on Laurel's screen while Michelle and Sarah both watched
-% and helped debug
+% We learned to download and extract the data by completing a course module on accessing csv files
+% We each spent 2 hours on preparing the data for our analysis
 T = readtable('fatal-police-shootings-data.csv');
 date = T(:, 3);
 armed = T(:, 5);
@@ -31,3 +21,12 @@ body_cam = T(:, 14);
 longitude = T(:, 15);
 latitude = T(:, 16);
 
+% Writing and debugging the code: Laurel, Sarah, Michelle, 1 hour each
+% Collaborated with Pair Programming
+
+% Extra code:
+% Calculating mean age
+% % T1 = T(:, 6);
+% % age = rmmissing(T1);%REMOVES NAN
+% % age_matrix = table2array(age)
+% % mean(age_matrix);
