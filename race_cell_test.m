@@ -1,9 +1,12 @@
+% Running a practice example before we implemented our statistical test
+
+% Reading data
 T = readtable('fatal-police-shootings-data.csv');
 
+% Extracting race variable
 race = T(:, 8);
 
-% coding practice when doing statistical analyses
-% this would just be a stat test extracting the number of Black people
+% Practice extracting the number of Black people
 racecell = table2cell(race);
 race_string = string(racecell);  
 B_race = [];
@@ -14,4 +17,5 @@ for ii = 1:length(race_string)
         end
 end
 B_race;
-% written and debugged by Laurel and Sarah
+
+% Writing and debugging by Laurel and Sarah, 1 hour
