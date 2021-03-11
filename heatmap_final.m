@@ -18,4 +18,4 @@ geoshow(states)
 hold off % Keeping original map of United States and allow for overlay of geoscatter
 geoscatter(lat, long, 'r') % Setting shooting data color to red (to represent deaths) and plotting the visualization
 
-% Writing and debugging by Laurel, 3 hours
+# Writing and debugging by Laurel, 3 hours
