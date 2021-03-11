@@ -6,4 +6,4 @@ threat_level_clean(idx) = [];
 threat_level_clean 
 
 % Writing the code: Laurel, 1 hour
-% Debugging the code: Michelle, 1 hour
+% Debugging the code: Michelle and Sarah, 1 hour

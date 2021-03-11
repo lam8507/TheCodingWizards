@@ -9,7 +9,7 @@ T = readtable('fatal-police-shootings-data.csv');
 % Debugging the code: Michelle and Laurel, 8 hours
 % Collaborated with Pair Programming
 
-% To do this, we needed to download a chi2ind function, which we discovered and learned out ourselves
+% To do this, we needed to download a chi2ind function, which we discovered ourselves
 % We accessed online resources to learn about statistical functions in MatLab
 % Also, we reviewed which statistical tests would be appropriate for our analysis
 race = T(:, 8); % Extracting the variables needed from readtable

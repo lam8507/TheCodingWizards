@@ -1,3 +1,4 @@
+
 % this portion was completed by Sarah
 load('T.mat');
 race = T(:, 8);
@@ -6,6 +7,19 @@ idx = strcmp(threat_level_clean,'undetermined');
 threat_level_clean(idx) = []; 
 threatlevel_string = string(threat_level_clean);
 threat_level_attack = []
+% this portion was completed by Sarah: 3 hours
+% Debugged by: Laurel: 2 hours
+T = readtable('fatal-police-shootings-data.csv');
+race = T(:,8);
+threat_level = T(:,12);
+
+threat_level_clean = table2cell(threat_level);
+idx = strcmp(threat_level_clean,'undetermined');
+threat_level_clean(idx) = [];
+threatlevelcell = table2cell(threat_level);
+threatlevel_string = string(threatlevelcell);
+% extract number of attack
+threat_level_attack = [];
 for ii = 1:length(threatlevel_string)
         if threatlevel_string(ii) == "attack" 
         

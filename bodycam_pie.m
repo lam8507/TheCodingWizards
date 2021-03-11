@@ -26,6 +26,6 @@ labels = {'No Body Cam', 'Body Cam'};
 pie3(X,labels) % 3 D pie chart
 title('Body cams on policemen')
 
-% Written by: Sarah, 4 hours
-% Debugged by: Michelle, 4 hours
+% Written by: Sarah, 3 hours
+% Debugged by: Michelle, 3 hours
 % Collaborated with Pair Programming

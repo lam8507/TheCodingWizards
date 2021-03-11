@@ -4,7 +4,7 @@
 % (specifically in AppDesigner)
 % We approached the TAs during Office Hours for help
 % Writing the code: Sarah, 2 hours
-% Debugging the code: Michelle and Laurel, 1 hour
+% Debugging the code: Laurel, 1 hour
 % Collaborated in Pair Programming
 
 % Reading data downloaded from GitHub
