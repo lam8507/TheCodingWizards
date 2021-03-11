@@ -2,7 +2,6 @@ T = readtable('fatal-police-shootings-data.csv'); % extracting
 mental_illness = T(:,11); % extracting from column 11 in csv
 % mental illness is presented in the csv as "True" or "False"
 
-% simple portion done by Sarah
 T = readtable('fatal-police-shootings-data.csv');
 mental_illness = T(:,11);
 race = T(:, 8);
